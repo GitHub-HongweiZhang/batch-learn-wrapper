@@ -3,10 +3,10 @@
 ## how to use
     > bl_run.sh prefix training_data.csv test_data.csv
 
-prefix is used when caching tmp files.
+Prefix is used when caching tmp files.
 
 ## model
-The original implement of model is from github repo https://github.com/alno/batch-learn,
+The original implementation of model is from github repo https://github.com/alno/batch-learn,
 which is called batch-learn. I add early stopping visualization to the model and 
 make it possible to do parameter tuning on the dropout rate when using NN.
 
